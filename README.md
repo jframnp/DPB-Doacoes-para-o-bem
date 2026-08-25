@@ -5,9 +5,13 @@ MackLee - Lab. de Engenharia de Software
 
 Grupo:
 Camila Huang - 10419606
+
 Edson Fu - 10419137
+
 Felipe Hideki Rodrigues Shinozaki - 10438584
+
 João Francisco - 10443666
+
 Xuanjun Jin - 10436456
 
 Link Github - jframnp/DPB-Doacoes-para-o-bem: Doações para o bem! 
