@@ -1,0 +1,17 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Compilar e testar') {
+            steps {
+                sh 'mvn -B -ntp clean test'
+            }
+        }
+    }
+
+    post {
+        always {
+            junit allowEmptyResults: true, testResults: 'target/surefire-reports/*.xml'
+        }
+    }
+}
